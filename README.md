@@ -182,35 +182,7 @@ XGBRegressor(
 - **Robust predictions**: Low residual bias and reasonable error distribution
 - **Feature efficiency**: 90% of predictive power from top 30 features
 
-## Web Application
 
-The project includes a Streamlit web application for interactive price predictions.
-
-### Features
-- **User-friendly interface** for inputting house characteristics
-- **Real-time predictions** with confidence intervals
-- **Feature importance visualization**
-- **Comparable properties analysis**
-
-### Deployment
-
-```bash
-cd webapp
-streamlit run app.py
-```
-
-Visit `http://localhost:8501` to use the application.
-
-## Performance Visualizations
-
-### Model Performance
-![Model Performance](results/model_performance.png)
-
-### Feature Importance
-![Feature Importance](results/feature_importance.png)
-
-### Residual Analysis
-![Residual Analysis](results/residual_analysis.png)
 
 ## Model Evaluation
 
@@ -263,7 +235,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Kaggle** for providing the House Prices dataset
 - **XGBoost team** for the excellent gradient boosting framework
 - **Optuna team** for the hyperparameter optimization library
-- **Streamlit team** for the web application framework
 
 ## Contact
 
