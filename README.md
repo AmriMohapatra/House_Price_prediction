@@ -38,12 +38,6 @@ house-price-prediction/
 │   └── utils.py                    # Utility functions
 ├── models/
 │   ├── final_model.pkl             # Trained XGBoost model
-│   └── label_encoders.pkl          # Fitted label encoders
-├── webapp/
-│   ├── app.py                      # Streamlit web application
-│   ├── requirements.txt            # Web app dependencies
-│   └── README.md                   # Deployment instructions
-├── requirements.txt                # Project dependencies
 └── README.md                       # This file
 ```
 
