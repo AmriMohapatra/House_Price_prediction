@@ -2,7 +2,7 @@
 
 A comprehensive machine learning project that predicts house prices using XGBoost regression with advanced hyperparameter optimization techniques.
 
-## 📊 Project Overview
+## Project Overview
 
 This project builds an end-to-end machine learning pipeline to predict house prices based on 79 property features. The model achieves an **R² score of 0.887** on the test set, explaining 88.7% of the variance in house prices.
 
@@ -14,7 +14,7 @@ This project builds an end-to-end machine learning pipeline to predict house pri
 - **Progressive hyperparameter optimization** (GridSearch + Optuna)
 - **Ready for web deployment**
 
-## 🎯 Results
+## Results
 
 | Metric | Training | Validation | Test |
 |--------|----------|------------|------|
@@ -22,7 +22,7 @@ This project builds an end-to-end machine learning pipeline to predict house pri
 | **MAE** | $15,234 | $16,892 | $16,445 |
 | **R²** | 0.912 | 0.887 | 0.887 |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 house-price-prediction/
@@ -47,7 +47,7 @@ house-price-prediction/
 └── README.md                       # This file
 ```
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 - Python 3.7+
@@ -71,7 +71,7 @@ pip install -r requirements.txt
 - Download `train.csv` and `test.csv`
 - Place files in the `data/` directory
 
-## 📋 Dependencies
+## Dependencies
 
 ```
 pandas>=1.3.0
@@ -85,7 +85,7 @@ streamlit>=1.10.0
 plotly>=5.6.0
 ```
 
-## 🚀 Usage
+## Usage
 
 ### Option 1: Google Colab (Recommended)
 
@@ -115,7 +115,7 @@ python src/model_training.py
 python src/hyperparameter_tuning.py
 ```
 
-## 📊 Methodology
+## Methodology
 
 ### 1. Data Analysis & Preparation
 
@@ -173,7 +173,7 @@ XGBRegressor(
 - **Extended parameter space**: 8 hyperparameters including regularization
 - **Intelligent sampling**: More efficient than grid search
 
-## 📈 Key Findings
+## Key Findings
 
 ### Most Important Features
 1. **OverallQual** (0.142) - Overall material and finish quality
@@ -188,7 +188,7 @@ XGBRegressor(
 - **Robust predictions**: Low residual bias and reasonable error distribution
 - **Feature efficiency**: 90% of predictive power from top 30 features
 
-## 🌐 Web Application
+## Web Application
 
 The project includes a Streamlit web application for interactive price predictions.
 
@@ -207,7 +207,7 @@ streamlit run app.py
 
 Visit `http://localhost:8501` to use the application.
 
-## 📊 Performance Visualizations
+## Performance Visualizations
 
 ### Model Performance
 ![Model Performance](results/model_performance.png)
@@ -218,7 +218,7 @@ Visit `http://localhost:8501` to use the application.
 ### Residual Analysis
 ![Residual Analysis](results/residual_analysis.png)
 
-## 🔍 Model Evaluation
+## Model Evaluation
 
 ### Strengths
 - **High accuracy**: 88.7% variance explained
@@ -238,7 +238,7 @@ Visit `http://localhost:8501` to use the application.
 - **External data**: Economic indicators, neighborhood demographics
 - **Deep learning**: Neural networks for complex patterns
 
-## 🏆 Business Value
+## Business Value
 
 ### Use Cases
 - **Real estate pricing**: Automated property valuation
@@ -252,7 +252,7 @@ Visit `http://localhost:8501` to use the application.
 - **Cost reduction**: Reduced need for physical property inspections
 - **Market transparency**: Standardized pricing methodology
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -260,18 +260,18 @@ Visit `http://localhost:8501` to use the application.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Kaggle** for providing the House Prices dataset
 - **XGBoost team** for the excellent gradient boosting framework
 - **Optuna team** for the hyperparameter optimization library
 - **Streamlit team** for the web application framework
 
-## 📧 Contact
+## Contact
 
 **Your Name** - [your.email@example.com](mailto:your.email@example.com)
 
