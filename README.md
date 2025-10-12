@@ -116,14 +116,6 @@ The application will be available at **[http://localhost:5000/](http://localhost
 
 ---
 
-## 🧱 Future Improvements
-
-* Add visualization of model predictions.
-* Include additional input validation and data normalization.
-* Integrate a small dashboard to show feature importance and correlations.
-
----
-
 ## 👨‍💻 Author
 
 **Amrit Mohapatra**
