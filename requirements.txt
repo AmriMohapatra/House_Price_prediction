@@ -2,8 +2,9 @@ fastapi
 uvicorn
 numpy
 scikit-learn
-xgboost==1.7.6
+xgboost
 jinja2
 joblib
 python-multipart
+
 
